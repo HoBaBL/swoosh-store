@@ -28,7 +28,7 @@ const Header = () => {
     return (
         <div>
             <div className={style.header}>
-                <div className={style.minMenuPosition}>
+                {/* <div className={style.minMenuPosition}>
                     <div className={style.minMenuFlex}>
                         <p className={style.headerMinMenu}>О магазине</p>
                         <Link to={'/blog'} className={style.headerMinMenu}>Наш блог</Link>
@@ -46,7 +46,7 @@ const Header = () => {
                             Регистрация
                         </button>
                     </div>
-                </div>
+                </div> */}
                 <div className={style.headerMenu}>
                     <div className={style.bigMenuPosition}>
                         <div className={style.imgPosition}>
