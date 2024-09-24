@@ -4,6 +4,7 @@ import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
+  createHashRouter
 } from "react-router-dom";
 import Header from './components/header/header';
 import Product from './components/product/product';
@@ -15,7 +16,7 @@ import Favorite from './components/favorite/favorite.tsx';
 import Blog from './components/blog/blog.tsx';
 import ArticleBlog from './components/blog/articleBlog.tsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App/>,
