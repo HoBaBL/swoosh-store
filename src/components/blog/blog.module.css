@@ -1,0 +1,283 @@
+.blogBoxPosition {
+    min-width: 498px;
+    width: 498px;
+    height: 341px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.blogBox {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.blogBoxPosition:hover .blogBox {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.blockInfo {
+    background-color: rgb(219, 229, 235);
+    padding: 16px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 53px;
+}
+
+.textBlock {
+    position:relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 281px;
+    /* z-index: 10; */
+}
+
+.text{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    max-width: 280px;
+}
+
+.blogFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogDate {
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.blogBtn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    border-bottom: solid white 2px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.blogBtn:hover {
+    color: #FF6915;
+    border-bottom: solid #FF6915 2px;
+}
+
+.blogflexBlock {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    width: 1016px;
+}
+
+.h2 {
+    font-size: 39px;
+    /* max-width: 295px; */
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.flexlastText {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.btnArrowLast {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnArrowLast:hover {
+    color: rgb(255, 105, 21);
+    transform: scale(1.1);
+}
+
+.btnArrowLast:disabled:hover {
+    color: rgba(16, 16, 16, 0.3);
+    transform: scale(1);
+    cursor: default;
+}
+
+.arrowFlex {
+    display: flex;
+    gap: 15px;
+}
+
+.grayText {
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+}
+
+.grayFlex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.categories {
+    width: 325px;
+}
+
+.categoriesFlexText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.categoriesCategories {
+    border: 1px solid rgb(236, 236, 236);
+    padding: 20px 25px;
+    padding-bottom: 0;
+}
+
+.categoriesTextMax {
+    margin: 0;
+    font-weight: 500;
+    font-size: 23px;
+    color: rgb(29, 29, 39);
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriesText {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(35, 35, 35);
+    text-transform:uppercase;   
+}
+
+.categoriesNum {
+    color: rgb(104, 104, 104);
+    font-size: 11px;
+    font-weight: 500;
+    border: solid 1px rgb(243, 243, 243);
+    padding: 5px 8px;
+    border-radius: 40%;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(243, 243, 243);
+}
+
+.grayBox {
+    background-color: rgb(248, 248, 248);
+    padding: 30px 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grayBoxTextMax {
+    font-size: 21px;
+}
+
+.grayBoxText {
+    font-size: 14px;
+    color: rgb(57, 57, 57);
+}
+
+.grayBoxInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px black ;
+    padding: 10px;
+    width: 255px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.btnBlack {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 23px 85px;
+    width: 275px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grayBoxMiniText {
+    font-size: 13px;
+    color: rgb(107, 110, 114);
+    margin: 0;
+    margin-top: 24px;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.articleTextBlock {
+    max-width: 1015px;
+    margin-bottom: 60px;
+}
+
+.articleText {
+    font-size: 18px;
+    color: rgb(30, 30, 30);
+    margin-bottom: 0;
+    line-height: 32px
+}
+
+.articleTextNorm {
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.articleSpan {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.articleH3 {
+    font-size: 35px;
+    color: rgb(29, 29, 39);
+    margin: 20px 0px;
+}
+
+.articleFlex {
+    display: flex;
+    justify-content: space-between;
+}

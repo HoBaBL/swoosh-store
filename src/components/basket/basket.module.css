@@ -1,0 +1,389 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 140px;
+    
+}
+
+.flexBasket {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.textGray {
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+
+.textGrayFlex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.heartBox {
+    display: flex;
+    background-image: url('../../../img/cart.png');
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 90px;
+    align-items:center;
+    justify-content: center;
+}
+
+.sad {
+    padding-top: 30px;
+}
+
+.nonePosition {
+    width: 100%;
+    display: flex;
+   align-items: center;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.textBig {
+    color: rgb(30, 30, 30);
+    font-weight: 500;
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.textNone {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    line-height:24px;
+    margin-bottom: 30px;
+}
+
+.span {
+    font-weight: 700;
+}
+
+.moreDetailed {
+    padding-left: 45px;
+    padding-right: 0;
+    background-color: rgb(255, 105, 21);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    font-size: 16px;
+    gap: 45px;
+    align-items: center;
+    cursor: pointer;
+    max-width: 235px;
+    transition: 0.3s;
+    height: 63px;
+    margin-bottom: 120px;
+}
+
+.moreDetailed:hover {
+    background-color: rgb(251, 90, 0);
+}
+
+.moreDetailed:hover span{
+    background-color: rgb(255, 105, 21);
+}
+
+.moreDetailedVektor {
+    background-color: rgb(251, 90, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 63px;
+}
+
+.table {
+    background-color: transparent;
+    width: 1015px;
+}
+
+.thead {
+    background-color: transparent;
+}
+
+.th {
+    background-color: transparent;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.th1 {
+    background-color: transparent;
+    padding: 15px 0px;
+    text-align: left;
+}
+
+.tableBodyFlex {
+    text-align: left;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px 20px;
+}
+
+.tableText {
+    font-weight: 400;
+}
+
+.textSize {
+    color: rgb(46, 46, 46);
+    font-weight: 400;
+}
+
+.thWhite {
+    background-color: transparent;
+    text-align: left;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    width: 111px;
+    height: 50px;
+    border-top: solid 1px rgb(236, 239, 244);
+    border-bottom: solid 1px rgb(236, 239, 244);
+    justify-content: space-between;
+}
+
+.counterBtn {
+    height: 100%;
+    width: 35px;
+    background-color: transparent;
+    border: none;
+    border-left: solid 1px rgb(236, 239, 244);
+    border-right: solid 1px rgb(236, 239, 244);
+    cursor: pointer;
+    color: rgb(167, 167, 167);
+}
+
+.counterBtn:hover {
+    color: black;
+}
+
+.counterBtn:disabled {
+    height: 100%;
+    width: 35px;
+    background-color: transparent;
+    border: none;
+    border-left: solid 1px rgb(236, 239, 244);
+    border-right: solid 1px rgb(236, 239, 244);
+    cursor: default;
+    color: rgb(167, 167, 167);
+}
+
+.counterText {
+    font-weight: 400;
+}
+
+.trash {
+    background-color: transparent;
+}
+
+.flexTrash {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.trashBtn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.moreDetailedBlack {
+    padding-left: 43px;
+    padding-right: 0;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    font-size: 16px;
+    gap: 52px;
+    align-items: center;
+    cursor: pointer;
+    width: 285px;
+    transition: 0.3s;
+    height: 63px;
+    margin-top: 25px;
+}
+
+.moreDetailedVektorBlack {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 63px;
+}
+
+.moreDetailedBlack:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.moreDetailedBlack:hover span{
+    background-color: rgb(30, 30, 30);
+}
+
+.sumBlock {
+    width: 285px;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+}
+
+.sumMaxText {
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(29, 29, 39);
+    margin: 0;
+}
+
+.sumFlex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.lineSum {
+    border-bottom: dashed 1px rgb(209, 209, 209);
+    width: 45%;
+}
+
+.sumPrice {
+    font-size: 17px;
+    margin: 25px 0;
+    white-space: nowrap;
+}
+
+.sumInput {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px;
+    width: 265px;
+    font-size: 16px;
+}
+
+.btnPromo {
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    border: solid 1px rgb(30, 30, 30);
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform:uppercase;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.tableMin {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .flexBasket {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sumBlock {
+        width:auto;
+    }
+
+    .btnPromo {
+        width: 331.5px;
+        margin-left: 20px;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+    .lineSum {
+        width: 80%;
+    }
+}
+
+@media (max-width: 920px) {
+    .container {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 684px) {
+
+    .tableBodyFlex {
+        padding: 0;
+    }
+
+    .btnPromo {
+        margin-left: 0px;
+    }
+
+    .tableMin {
+        display: block;
+    }
+
+    .table {
+        display: none;
+    }
+
+    .boxProduct {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: solid 1px rgb(236, 236, 236);
+    }
+
+    .flexFlex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 571px) {
+    .boxProduct {
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .btnPromo {
+        width: 100%;
+    }
+}

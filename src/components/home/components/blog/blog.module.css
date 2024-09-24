@@ -1,0 +1,169 @@
+.blogBoxPosition {
+    min-width: 670px;
+    /* width: 498px; */
+    height: 341px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.blogBox {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.blogBoxPosition:hover .blogBox {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.blockInfo {
+    background-color: rgb(219, 229, 235);
+    padding: 16px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 53px;
+}
+
+.textBlock {
+    position:relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 281px;
+    /* z-index: 10; */
+}
+
+.text{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    max-width: 280px;
+}
+
+.blogFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogDate {
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.blogBtn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    border-bottom: solid white 2px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.blogBtn:hover {
+    color: #FF6915;
+    border-bottom: solid #FF6915 2px;
+}
+
+.blogflexBlock {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.h2 {
+    font-size: 39px;
+    max-width: 295px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.flexlastText {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.btnArrowLast {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnArrowLast:hover {
+    color: rgb(255, 105, 21);
+    transform: scale(1.1);
+}
+
+.btnArrowLast:disabled:hover {
+    color: rgba(16, 16, 16, 0.3);
+    transform: scale(1);
+    cursor: default;
+}
+
+.arrowFlex {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 1200px) {
+    .blogBoxPosition {
+        min-width: 450px;
+    }
+}
+
+@media (max-width: 920px) {
+    .h2 {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 21px;
+    }
+
+    .blogBtn {
+        font-size: 15px;
+    }
+
+    .blogDate {
+        font-size: 11px;
+    }
+
+    .textBlock {
+        padding: 20px;
+    }
+
+    .blogBoxPosition {
+        min-width: 290px;
+    }
+
+    .flexlastText {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .blockInfo {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,227 @@
+.header {
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 100;
+    background-color: white;
+}
+
+.headerMinMenu {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+}
+
+.btnLogin {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 7px;
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+}
+
+.minMenuFlex {
+    display: flex;
+    gap: 40px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.btnLoginFlex {
+    display: flex;
+    align-items: center;
+}
+
+.minMenuPosition {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.bigMenuPosition {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: 0 auto;
+    align-items: center;
+    border-right: solid #EAEAEA 1px;
+    padding: 0px 10px;
+    
+}
+
+.imgPosition {
+    border-right: solid #EAEAEA 1px;
+    min-width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.menuPosition {
+    display: flex;
+    gap: 57px;
+}
+
+.headerMenuText {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.headerMenu {
+    border-top: solid #EAEAEA 1px;
+    border-bottom: solid #EAEAEA 1px;
+}
+
+.imgFlex {
+    display: flex;
+}
+
+.imgBox {
+    width: 70px;
+    height: 70px;
+    border-left: solid #EAEAEA 1px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imgBoxLup {
+    width: 70px;
+    height: 70px;
+    border-left: solid #EAEAEA 1px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.linkAnim {
+    transition: 0.3s;
+}
+
+.linkAnim:hover {
+    transform: scale(1.2);
+}
+
+.count {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 105, 21);
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right:5px;
+    display: flex;
+    color: white;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniMenu {
+    display: none;
+}
+
+.grayBlackNone {
+    display: none;
+    transition: 0.3s;
+}
+
+.grayBlack {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100000;
+    transition: 0.5s;
+    cursor: auto;
+    transition: 0.3s;
+}
+
+.cross {
+    background-color: transparent;
+    border: none;
+}
+
+.crossPosition {
+    display: flex;
+    justify-content: end;
+}
+
+
+@media (max-width: 920px) {
+    .miniMenu {
+        display: block;
+        width: 100%;
+        padding-left: 35px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menuPosition {
+        display: none;
+    }
+
+    .minMenuPosition {
+        display: none;
+    }
+
+    .downdrop {
+        background-color: white;
+        z-index: 100;
+        position: fixed;
+        width: 328px;
+        height: 100%;
+    }
+
+    .downdropFlex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imgBox {
+        border-left: none ;
+    }
+
+    .menuPositionColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerMenuTextDowmdrop {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform:uppercase;
+        padding:15px;
+        margin: 0;
+        border-top: solid #EAEAEA 1px;
+    }
+
+    .minMenuFlexDowndrop {
+        border-top: solid #EAEAEA 1px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imgBoxLup {
+        display: none;
+    }
+}

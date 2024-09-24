@@ -1,0 +1,689 @@
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    padding: 10px;
+}
+
+.h1Slider {
+    font-size: 69px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.SliderTextBlock {
+    width: 561px;
+    margin-top: 126px;
+    height: 545px;
+}
+
+.h1SliderLine {
+    display: block;
+    width: 132px;
+    height: 2px;
+    background-color: black;
+}
+
+.sliderText {
+    font-size: 18px;
+}
+
+.sliderPrice {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.moreDetailed {
+    padding-left: 45px;
+    padding-right: 0;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    font-size: 16px;
+    gap: 45px;
+    align-items: center;
+    cursor: pointer;
+    width: 190px;
+    transition: 0.3s;
+    height: 63px;
+    justify-content: space-between;
+}
+
+.moreDetailed:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.moreDetailed:hover span{
+    background-color: rgb(30, 30, 30);
+}
+
+.moreDetailedVektor {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 63px;
+}
+
+.sliderBtnArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    /* padding: 45px; */
+    border: solid 1px rgb(246, 246, 246);
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    /* flex: 0 1; */
+}
+
+.sliderBtnArrowFlex {
+    margin-top: 20px;
+    display: flex;
+    gap: 14px;
+}
+
+.sliderImgBlock {
+    background-color: white;
+    position: relative;
+    width: 762px;
+    height: 703px;
+    display: flex;
+    align-items: center;
+}
+
+.sliderImgBlock img {
+    width: 100%;
+}
+
+.btnPoint {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.btnPointNoneActive {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(31, 31, 31, 0.3);
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    /* position: absolute; */
+}
+
+.btnPointFlex {
+    display: flex;
+    flex-direction: column;
+    height: 187px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliderContainer {
+    max-height: 703px;
+    overflow: hidden;
+}
+
+.boxBtnSlider {
+    position: relative;
+}
+
+
+.blockInfo {
+    border-top: solid rgb(234, 234, 234) 1px;
+    border-bottom: solid rgb(234, 234, 234) 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blockInfoTextBlock {
+    display: flex;
+    max-width: 420px;
+    /* gap: 20px; */
+}
+
+.blockInfoTextBig {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.blockInfoText {
+    font-size: 15px;
+    color: rgb(75, 75, 75);
+}
+
+.product {
+    min-width: 440px;
+    position: relative;
+    transition: transform 0.4s ease-in-out;
+}
+
+.productImg {
+    width: 100%;
+}
+
+.store {
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+.textBox {
+    margin-top: 25px;
+}
+
+.gender {
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+    margin: 0;
+}
+
+.name {
+    font-size: 19px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+.btnBag {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnBag:hover {
+    color: rgb(255, 105, 21);
+    transform: scale(1.2);
+}
+
+.pricePosition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+.sliderLast {
+    position: relative;
+    
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.flexlastText {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.h2 {
+    font-size: 39px;
+    max-width: 295px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.btnArrowLast {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnArrowLast:hover {
+    color: rgb(255, 105, 21);
+    transform: scale(1.1);
+}
+
+.btnArrowLast:disabled:hover {
+    color: rgba(16, 16, 16, 0.3);
+    transform: scale(1);
+    cursor: default;
+}
+
+.arrowFlex {
+    display: flex;
+    gap: 15px;
+}
+
+.hitBlock {
+    margin-top: 115px;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    /* height: 618px; */
+    background-image: url('./img/Mask.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hitBlockTextBlock {
+    padding: 110px 70px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.hitMaxBlock {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 400;
+    max-width: 450px;
+    margin: 0;
+    
+}
+
+.hitBlockText {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 362px;
+    margin: 0;
+}
+
+.hitBlockPrice {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-top: 28px;
+    margin-bottom: 22px;
+}
+
+.hitBlock2Text {
+    max-width: 290px;
+    color: white;
+    display: flex;
+    gap: 6px;
+}
+
+.footerBox {
+    width: 670px;
+    height: 736px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.footerImg {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.footerBox:hover .footerImg {
+    transform: scale(1.05);
+}
+
+.footerTextPosition {
+    height: 617px;
+    position: relative;
+    z-index: 10;
+    max-width: 270px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footerText {
+    font-size: 32px;
+    color: white;
+    margin: 0;
+}
+
+.blogBtn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    border-bottom: solid white 2px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blogBtn:hover {
+    color: #FF6915;
+    border-bottom: solid #FF6915 2px;
+}
+
+.footerFlex {
+    display: flex;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+.containerBig {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.textFooterPosition {
+    max-width: 785px;
+    /* padding-left: 270px; */
+    width: 100%;
+}
+
+.footerH3 {
+    font-size: 39px;
+    margin: 0;
+    max-width: 480px;
+}
+
+.footerTextMini {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.textPositionSlider {
+    height: 418px;
+}
+
+.fonImgFooter {
+    width: 100%;
+}
+
+.btnBigFlex {
+    display: none;
+}
+
+.sliderTopTop {
+    margin-bottom: 102px;
+    overflow: hidden;
+    padding-top: 140px;
+}
+
+.blockInfoInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sliderImgGop {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.textDef {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .h1Slider {
+        font-size: 45px;
+    }
+
+    .sliderText {
+        font-size: 16px;
+    }
+
+    .hitMaxBlock {
+        font-size: 34px;
+    }
+
+    .hitBlockText {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .h1SliderLine {
+        display: none;
+    }
+    .sliderImgBlock {
+        width: 505px;
+        height: 407px;
+    }
+
+    .SliderTextBlock {
+        /* width: 316px; */
+        margin-top: 85px;
+        height: auto;
+    }
+
+    .btnBigFlex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnPointFlex {
+        display: none;
+    }
+
+    .btnPointMedia {
+        display: flex;
+        /* flex-direction: column; */
+        width: 187px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sliderBtnArrowFlex {
+        display: none;
+    }
+
+    .footerText {
+        font-size: 24px;
+    }
+
+    .footerBox {
+        height: 456px;
+    }
+
+    .footerTextPosition {
+        height: 326px;
+    }
+}
+
+@media (max-width: 920px) {
+    .sliderTopTop {
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .hitBlock {
+        margin-top: 0;
+    }
+
+    .blockInfoTextBig {
+        font-size: 16px;
+    }
+
+    .blockInfoText {
+        font-size: 14px;
+    }
+
+    .h1Slider {
+        font-size: 34px;
+    }
+
+    .sliderText {
+        font-size: 15px;
+    }
+
+    .sliderImgBlock {
+        width: 394px;
+        height: 407px;
+    }
+
+    .textPositionSlider {
+        max-width: 316px;
+    }
+
+    .h2 {
+        font-size: 24px;
+    }
+
+    .product {
+        min-width: 286px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .hitBlock2Text {
+        display: none;
+    }
+
+    .footerTextPosition {
+        padding: 30px;
+    }
+
+    .footerBox {
+        width: 50%;
+    }
+
+    .footerH3 {
+        font-size: 24px;
+    }
+
+    .textFooterPosition p {
+        font-size: 15px;
+    }
+
+    .containerBig {
+        margin-top: 50px;
+    }
+
+    .textPositionSlider {
+        height: 328px;
+    }
+}
+
+@media (max-width: 720px) {
+    .blockInfoInfo {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .blockInfo {
+        padding-top:30px ;
+        padding-bottom: 30px;
+    }
+
+    .hitBlockTextBlock {
+        padding: 30px;
+    }
+
+    .flexlastText {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footerFlex {
+        margin-top: 30px;
+    }
+
+    .blogBtn {
+        font-size: 14px;
+    }
+
+    .footerBox {
+        height: 330px;
+    }
+
+    .footerTextPosition {
+        height: 276px;
+    }
+
+    
+}
+
+@media (max-width: 620px) {
+    .product {
+        min-width: 160px;
+    }
+
+    .footerBox {
+        width: auto;
+    }
+
+    .sliderImgGop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textDef {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 470px) {
+    .footerFlex {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .containerBig {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .textFooterPosition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sliderLast {
+        gap: 10px;
+    }
+}

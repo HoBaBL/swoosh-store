@@ -1,0 +1,189 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding: 0 10px;
+}
+
+
+.textGray {
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+
+.textGrayFlex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.store {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 20px;
+    margin-bottom: 120px;
+}
+
+.textBox {
+    margin-top: 25px;
+}
+
+.gender {
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+    margin: 0;
+}
+
+.name {
+    font-size: 19px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+.btnBag {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnBag:hover {
+    color: rgb(255, 105, 21);
+    transform: scale(1.2);
+}
+
+.pricePosition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+.heartBox {
+    display: flex;
+    background-image: url('../../../img/heart.png');
+    background-repeat: no-repeat;
+    width: 101px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nonePosition {
+    width: 100%;
+    display: flex;
+   align-items: center;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.textBig {
+    color: rgb(30, 30, 30);
+    font-weight: 500;
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.textNone {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    line-height:24px;
+    margin-bottom: 30px;
+}
+
+.span {
+    font-weight: 700;
+}
+
+.moreDetailed {
+    padding-left: 45px;
+    padding-right: 0;
+    background-color: rgb(255, 105, 21);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    font-size: 16px;
+    gap: 45px;
+    align-items: center;
+    cursor: pointer;
+    max-width: 235px;
+    transition: 0.3s;
+    height: 63px;
+    margin-bottom: 120px;
+}
+
+.moreDetailed:hover {
+    background-color: rgb(251, 90, 0);
+}
+
+.moreDetailed:hover span{
+    background-color: rgb(255, 105, 21);
+}
+
+.moreDetailedVektor {
+    background-color: rgb(251, 90, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 63px;
+}
+
+.product {
+    max-width: 440px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.productImg {
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+@media (max-width: 910px) {
+    .container {
+        padding-top: 100px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .store {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 360px) {
+    .product {
+        min-width: 150px;
+    }
+}
