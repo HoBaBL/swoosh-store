@@ -2,6 +2,8 @@ import style from '../home.module.css'
 import { GoArrowRight } from "react-icons/go";
 import fon from '../img/footerFon.png'
 import { Link } from 'react-router-dom';
+import img1 from '../img/crosiFon.png'
+import img2 from '../img/womenFon.png'
 
 const HomeFooter = () => {
 
@@ -10,14 +12,14 @@ const HomeFooter = () => {
             <div className={style.container}>
                 <div className={style.footerFlex}>
                     <Link to={`/store/catalog`} className={style.footerBox}>
-                        <div style={{backgroundImage: `url(../../../public/img/crosiFon.png)`}} className={style.footerImg}></div>
+                        <div style={{backgroundImage: img1}} className={style.footerImg}></div>
                         <div className={style.footerTextPosition}>
                             <p className={style.footerText}>Новая коллекция в каталоге Nike Air Max Solo</p>
                             <button className={style.blogBtn}>Перейти в каталог</button>
                         </div>
                     </Link>
                     <Link to={`/store/catalog`} className={style.footerBox}>
-                        <div style={{backgroundImage: `url(../../../public/img/womenFon.png)`}} className={style.footerImg}></div>
+                        <div style={{backgroundImage: img2}} className={style.footerImg1}></div>
                         <div className={style.footerTextPosition}>
                             <p className={style.footerText}>Новая коллекция в каталоге Nike Air Max Solo</p>
                             <button className={style.blogBtn}>Перейти в каталог</button>
